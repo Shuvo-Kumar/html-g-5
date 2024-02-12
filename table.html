@@ -8,7 +8,7 @@
         table{
             border-collapse: collapse;
         }
-        td{
+        td , th{
             border: 2px solid black;
             margin: 5px 10px;
             padding: 10px;
@@ -20,8 +20,16 @@
 </head>
 <body>
     <h2>HTML Table</h2>
+    <caption>Montly Company Salary Table:</caption>
     <table>
+        
         <thead>
+            <tr>
+                <th>No:</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Salary</th>
+            </tr>
 
         </thead>
         <tbody>
@@ -46,6 +54,10 @@
 
         </tbody>
         <tfoot>
+            <tr>
+                <td colspan="4">Total Employee:3</td>
+            </tr>
+
 
         </tfoot>
        
